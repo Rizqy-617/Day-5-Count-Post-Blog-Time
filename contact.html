@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/contact.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="kiri">
+            <img src="/assets/img/brandred.png" alt="icon dumbways" width="70px" style="padding-right: 40px;">
+            <ul>
+                <li><a href="home.html" class="home">Home</a></li>
+                <li><a href="index.html">My Project</a></li>
+            </ul>
+        </div>
+        <div class="kanan">
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </nav>
+    <!-- Main -->
+    <main>
+        <div class="contact">
+            <h1>GET IN TOUCH</h1>
+            <form>
+                <label >Name</label>
+                <input type="text" id="name">
+                <label >Email</label>
+                <input type="text" id="email">
+                <label >Phone Number</label>
+                <input type="number" id="phone">
+                <label >Subject</label>
+                <select name="Subject" id="subject">
+                    <option value="urgent">Hal Urgent</option>
+                    <option value="bisnis">Bisnis</option>
+                    <option value="sekolah">Sekolah</option>
+                </select>
+                <label >Your Message</label>
+                <textarea id="message">
+                </textarea>
+                <div class="btn-submit">
+                    <button type="button" onclick="submitData()">Submit</button>
+                </div>  
+            </form>
+        </div>
+    </main>
+    <script src="/assets/js/contact.js"></script>
+</body>
+</html>

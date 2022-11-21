@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+/* Navbar */
+
+nav {
+    background-color: #F4F3F3;
+    display: flex;
+    height: 70px;
+}
+
+nav .kiri {
+    flex: 55%;
+    background-color: #F4F3F3;
+    padding-left: 90px;
+    display: flex;
+    align-items: center;
+}
+
+nav .kiri li {
+    display: inline-block;
+}
+
+nav .kiri ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.home {
+    font-weight: bold;
+}
+
+nav .kanan {
+    flex: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 90px;
+}
+
+nav .kanan a {
+    background-color: orangered;
+    color: #F4F3F3;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav .kanan a:hover {
+    background-color: black;
+}
+
+body {
+    background-color: #E3E7EB;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    max-width: 1024px;
+    height: 120vh;
+}
+
+
+/* Contact */
+
+.contact{
+    width: 576px;
+    margin: auto;
+}
+
+.contact h1{
+    text-align: center;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+.contact form input:focus{
+    outline: 2px solid orangered;
+}
+
+.contact form label{
+    margin-bottom: 6px;
+}
+
+.contact form select{
+    padding: 12px 8px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 14px;
+    user-select: none;
+}
+
+.contact form select:focus{
+    outline: 2px solid orangered;
+}
+
+.contact form textarea{
+    border: none;
+    height: 170px;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+.contact form textarea:focus{
+    outline: 2px solid orangered;
+}
+
+.contact form .btn-submit{
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contact form .btn-submit button{
+    padding: 10px 22px;
+    border: none;
+    border-radius: 8px;
+    background-color: orangered;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.contact form .btn-submit button:hover {
+    background: black;
+}
