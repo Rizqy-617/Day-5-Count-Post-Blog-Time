@@ -91,8 +91,8 @@ for(let index = 0; index < data.length; index++ ){
 
 // function for post blog time
 
-function durationHandle(startDate , endDate){
-    let distance= new Date(endDate) - new Date(startDate)
-    let selisihHari = distance / (1000 * 60 * 60 * 24)
+function penghitungWaktu(startDate , endDate){
+    let dalamMilisecond = new Date(endDate) - new Date(startDate)
+    let selisihHari = dalamMilisecond / (1000 * 60 * 60 * 24)
     return selisihHari
 }
