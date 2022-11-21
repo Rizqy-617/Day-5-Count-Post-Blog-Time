@@ -67,7 +67,7 @@ for(let index = 0; index < data.length; index++ ){
         <div class="card-content">
             <div class="project_name">
             <h3>${data[index].projectName}</h3>
-            <h4>Durasi: ${durationHandle(data[index].startDate, data[index].endDate)} Hari</h4>
+            <h4>Durasi: ${penghitungWaktu(data[index].startDate, data[index].endDate)} Hari</h4>
             </div>
             <div class="card-text">
             <p>${data[index].deskripsi}</p>
